@@ -130,6 +130,14 @@ chmod +x ./dist/index.js
 yarn publish --access public
 ```
 
+The project includes bash script "publish.sh" that does the above.
+
+Run:
+
+```bash
+./publish.sh
+```
+
 ### Installing your command from NPM
 
 After you have published your command to NPM your users can install your command as follows:
