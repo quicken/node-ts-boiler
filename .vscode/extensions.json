@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "esbenp.prettier-vscode",
+    "herdingbits.file-focus",
+    "sonarsource.sonarlint-vscode",
+    "dbaeumer.vscode-eslint"
+  ]
+}
