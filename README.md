@@ -130,7 +130,7 @@ chmod +x ./dist/index.js
 yarn publish --access public
 ```
 
-The project includes bash script "publish.sh" that does the above.
+The project includes the shell script "publish.sh" that runs the above steps.
 
 Run:
 
