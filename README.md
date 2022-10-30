@@ -123,14 +123,7 @@ Compiles and runs all unit tests. Automatically attaches the debugger.
 2. Make the entry file **./dist/index.js** executable.
 3. Push to NPM repo.
 
-```bash
-yarn test
-yarn build
-chmod +x ./dist/index.js
-yarn publish --access public
-```
-
-The project includes the shell script "publish.sh" that runs the above steps.
+The project includes the shell script "publish.sh" that runs the above steps including unit-tests.
 
 Run:
 
