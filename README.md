@@ -1,5 +1,7 @@
 # Command Line Project Template using Typescript
 
+![GitHub issues](https://img.shields.io/github/issues/quicken/node-ts-boiler)
+
 ## About
 
 This project serves as a minimalistic template for building a node CLI command that can be published to NPM.
@@ -19,6 +21,8 @@ Marcel 😎👍
 - #herdingbits
 - Youtube: https://youtube.com/herdingbits
 - Blog: https://www.herdingbits.com
+
+![Your Repository's Stats](https://github-readme-stats.vercel.app/api?username=quicken&show_icons=true)
 
 ## Features
 
