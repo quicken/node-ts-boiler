@@ -23,12 +23,11 @@ Marcel 😎👍
 ## Features
 
 - Run this project like any CLI command.
-- Code using typescript.
-- Ready to publish to NPM.
+- Supports SDLC best practices.
+- Ready for real projects.
+- Simplify publishing to NPM.
 - VS Code Debug Profiles for easy debugging.
-- Jest for unit testing.
-- Typedocs for automatic doc creation.
-- Minimal source code and tooling.
+- Minimal source code and tooling; easily extend and adapt to your needs.
 
 ## Prerequisites
 
