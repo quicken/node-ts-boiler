@@ -22,7 +22,7 @@ Marcel 😎👍
 - Youtube: https://youtube.com/herdingbits
 - Blog: https://www.herdingbits.com
 
-![Your Repository's Stats](https://github-readme-stats.vercel.app/api?username=quicken&show_icons=true)
+![Your Repository's Stats](https://github-readme-stats.vercel.app/api?username=quicken&show_icons=true&hide=commits,prs,issues,contribs)
 
 ## Features
 
