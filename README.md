@@ -27,12 +27,11 @@ Marcel 😎👍
 ## Features
 
 - Run this project like any CLI command.
-- Code using typescript.
-- Ready to publish to NPM.
+- Supports SDLC best practices.
+- Ready for real projects.
+- Simplify publishing to NPM.
 - VS Code Debug Profiles for easy debugging.
-- Jest for unit testing.
-- Typedocs for automatic doc creation.
-- Minimal source code and tooling.
+- Minimal source code and tooling; easily extend and adapt to your needs.
 
 ## Prerequisites
 
@@ -50,9 +49,9 @@ Check out this repository and follow the checklist.
 
 After checking out this project complete the following quick steps before you start coding.
 
-1. Update the package.json file with values appropriate to the project. Values related to describing the project are in the top section of the file.
-2. There are two places with the word: "changeme". One is the name of the application. The second is within the bin section which controls what end-users type into the console to run your program. Update both values to suit.
-3. If the MIT license is not suitable for your project. Update the license section in package.json and the LICENSE file as required.
+1. Update the package.json file with values appropriate to the project. Values related to describing the project are in the top section of the file. At a minimum update the git repository and author information.
+2. There are two places with the word: "changeme" in the "package.json" file. One is the name of the application. The second is within the bin section which controls what end-users type into the console to run your program. Update both values to suit.
+3. Update the author name in the LICENSE file. If you need a different license for your project update LICENSE and package.json as required.
 4. Remove the .git folder and all its contents.
 5. Run: **yarn install**
 
@@ -127,14 +126,7 @@ Compiles and runs all unit tests. Automatically attaches the debugger.
 2. Make the entry file **./dist/index.js** executable.
 3. Push to NPM repo.
 
-```bash
-yarn test
-yarn build
-chmod +x ./dist/index.js
-yarn publish --access public
-```
-
-The project includes the shell script "publish.sh" that runs the above steps.
+The project includes the shell script "publish.sh" that runs the above steps including unit-tests.
 
 Run:
 
