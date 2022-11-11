@@ -24,11 +24,8 @@
       "name": "test open file",
       "type": "node",
       "request": "launch",
-      "env": {
-        "CI": "true"
-      },
       "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/jest",
-      "args": ["${fileBasenameNoExtension}", "--config", "${workspaceFolder}/jest.config.ts"],
+      "args": ["${fileBasenameNoExtension}.test.ts", "--config", "${workspaceFolder}/jest.config.ts", "--runInBand"],
       "cwd": "${workspaceFolder}",
       "console": "integratedTerminal",
       "internalConsoleOptions": "neverOpen"
@@ -37,7 +34,7 @@
       "name": "test all",
       "type": "node",
       "request": "launch",
-      "runtimeArgs": ["--inspect-brk", "${workspaceRoot}/node/node_modules/.bin/jest", "--runInBand"],
+      "runtimeArgs": ["--inspect-brk", "${workspaceRoot}/node_modules/.bin/jest", "--runInBand"],
       "cwd": "${workspaceFolder}",
       "console": "integratedTerminal",
       "internalConsoleOptions": "neverOpen"
